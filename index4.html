@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dashboard - WolfOutLadder</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">WolfOutLadder</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+        </li><!-- End Notification Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>1200-1400</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+      <li class="nav-item">
+        <a class="nav-link " href="index4.html">
+          <i class="bi bi-grid"></i>
+          <span>1400-1600</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+      <li class="nav-item">
+        <a class="nav-link " href="index6.html">
+          <i class="bi bi-grid"></i>
+          <span>1600-1800</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      
+
+      <li class="nav-heading">Pages</li>
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      
+
+      
+      
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>1200-1400</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">1200-1400</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+    
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+
+            
+
+            <!-- Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Problems </h5>
+
+                  <table class="table table-borderless datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Problem</th>
+                        <th scope="col">Tag</th>
+                      
+                        <th scope="col">Solved Count</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1513/C" target="_blank" class="text-primary">Add One</a></td>
+                        <td>dp, matrices</td>
+                        <td>12207</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1234/C" target="_blank" class="text-primary">Pipes</a></td>
+                        <td>dp, implementation</td>
+                        <td>11847</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1324/E" target="_blank" class="text-primary">Sleeping Schedule</a></td>
+                        <td>dp, implementation</td>
+                        <td>11653</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td><a href="https://codeforces.com/problemset/problem/460/B" target="_blank" class="text-primary">Little Dima and Equation</a></td>
+                        <td>brute force, implementation, math, number theory</td>
+                        <td>11347</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1593/E" target="_blank" class="text-primary">Gardener and Tree</a></td>
+                        <td>brute force, data structures, dfs and similar, greedy, implementation, trees</td>
+                        <td>10793</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1400/B" target="_blank" class="text-primary">RPG Protagonist</a></td>
+                        <td>brute force, greedy, math</td>
+                        <td>10666</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1673/C" target="_blank" class="text-primary">Palindrome Basis</a></td>
+                        <td>brute force, dp, math, number theory</td>
+                        <td>10595</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1804/C" target="_blank" class="text-primary">Pull Your Luck</a></td>
+                        <td>brute force, greedy, math, number theory</td>
+                        <td>10526</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1335/E1" target="_blank" class="text-primary">Three Blocks Palindrome (easy version)</a></td>
+                        <td>binary search, brute force, data structures, dp, two pointers</td>
+                        <td>10124</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1520/F1" target="_blank" class="text-primary">Guess the K-th Zero (Easy version)</a></td>
+                        <td>binary search, interactive</td>
+                        <td>10113</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1791/F" target="_blank" class="text-primary">Range Update Point Query</a></td>
+                        <td>binary search, brute force, data structures</td>
+                        <td>10075</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1651/C" target="_blank" class="text-primary">Fault-tolerant Network</a></td>
+                        <td>brute force, data structures, implementation</td>
+                        <td>10037</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1842/C" target="_blank" class="text-primary">Tenzing and Balls</a></td>
+                        <td>dp</td>
+                        <td>9859</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1842/C" target="_blank" class="text-primary">Tenzing and Balls</a></td>
+                        <td>dp</td>
+                        <td>9840</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1872/E" target="_blank" class="text-primary">Data Structures Fan</a></td>
+                        <td>binary search, bitmasks, data structures, dp</td>
+                        <td>9765</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1872/E" target="_blank" class="text-primary">Data Structures Fan</a></td>
+                        <td>binary search, bitmasks, data structures, dp</td>
+                        <td>9762</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1176/E" target="_blank" class="text-primary">Cover it!</a></td>
+                        <td>dfs and similar, dsu, graphs, shortest paths, trees</td>
+                        <td>9702</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1843/E" target="_blank" class="text-primary">Tracking Segments</a></td>
+                        <td>binary search, brute force, data structures, two pointers</td>
+                        <td>9495</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1856/C" target="_blank" class="text-primary">To Become Max</a></td>
+                        <td>binary search, brute force, data structures, dp</td>
+                        <td>9469</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1856/C" target="_blank" class="text-primary">To Become Max</a></td>
+                        <td>binary search, brute force, data structures, dp</td>
+                        <td>9466</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1858/B" target="_blank" class="text-primary">The Walkway</a></td>
+                        <td>brute force, dp, greedy, math, number theory</td>
+                        <td>9462</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1858/B" target="_blank" class="text-primary">The Walkaway</a></td>
+                        <td>brute force, dp, greedy, math, number theory</td>
+                        <td>9462</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">23</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1741/E" target="_blank" class="text-primary">Sending a Sequence Over the Network</a></td>
+                        <td>dp</td>
+                        <td>9346</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">24</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1625/C" target="_blank" class="text-primary">Road Optimization</a></td>
+                        <td>dp</td>
+                        <td>9263</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">25</th>
+                        <td><a href="https://codeforces.com/problemset/problem/891/A" target="_blank" class="text-primary">Pride</a></td>
+                        <td>brute force, dp, greedy, math, number theory</td>
+                        <td>9180</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">26</th>
+                        <td><a href="https://codeforces.com/problemset/problem/567/C" target="_blank" class="text-primary">Geometric Progression</a></td>
+                        <td>binary search, data structures, dp</td>
+                        <td>9006</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">27</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1006/E" target="_blank" class="text-primary">Military Problem</a></td>
+                        <td>dfs and similar, graphs, trees</td>
+                        <td>8952</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">28</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1722/G" target="_blank" class="text-primary">Even-Odd XOR</a></td>
+                        <td>bitmasks, constructive algorithms, greedy</td>
+                        <td>8947</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">29</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1722/E" target="_blank" class="text-primary">Counting Rectangles</a></td>
+                        <td>brute force, data structures, dp, implementation</td>
+                        <td>8934</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1051/C" target="_blank" class="text-primary">Vasya and Multisets</a></td>
+                        <td>brute force, dp, greedy, implementation, math</td>
+                        <td>8920</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">31</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1473/D" target="_blank" class="text-primary">Program</a></td>
+                        <td>data structures, dp, implementation, strings</td>
+                        <td>8891</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">32</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1873/G" target="_blank" class="text-primary">ABBC or BACB</a></td>
+                        <td>constructive algorithms, greedy</td>
+                        <td>8873</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">33</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1857/F" target="_blank" class="text-primary">Sum and Product</a></td>
+                        <td>binary search, data structures, math</td>
+                        <td>8859</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">34</th>
+                        <td><a href="https://codeforces.com/problemset/problem/742/B" target="_blank" class="text-primary">Arpa’s obvious problem and Mehrdad’s terrible solution</a></td>
+                        <td>brute force, math, number theory</td>
+                        <td>8770</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">35</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1498/C" target="_blank" class="text-primary">Planar Reflections</a></td>
+                        <td>brute force, data structures, dp</td>
+                        <td>8763</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">36</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1249/E" target="_blank" class="text-primary">By Elevator or Stairs?</a></td>
+                        <td>dp, shortest paths</td>
+                        <td>8742</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">37</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1036/D" target="_blank" class="text-primary">Vasya and Arrays</a></td>
+                        <td>greedy, two pointers</td>
+                        <td>8601</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">38</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1461/D" target="_blank" class="text-primary">Divide and Summarize</a></td>
+                        <td>binary search, brute force, data structures, divide and conquer, implementation, sortings</td>
+                        <td>8569</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">39</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1849/C" target="_blank" class="text-primary">Binary String Copying</a></td>
+                        <td>binary search, brute force, data structures, hashing, strings</td>
+                        <td>8529</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">40</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1849/C" target="_blank" class="text-primary">Binary String Copying</a></td>
+                        <td>binary search, brute force, data structures, hashing, strings</td>
+                        <td>8527</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">41</th>
+                        <td><a href="https://codeforces.com/problemset/problem/225/C" target="_blank" class="text-primary">Barcode</a></td>
+                        <td>dp, matrices</td>
+                        <td>8387</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">42</th>
+                        <td><a href="https://codeforces.com/problemset/problem/611/C" target="_blank" class="text-primary">New Year and Domino</a></td>
+                        <td>dp, implementation</td>
+                        <td>8192</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">43</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1862/E" target="_blank" class="text-primary">Kolya and Movie Theatre</a></td>
+                        <td>constructive algorithms, data structures, greedy</td>
+                        <td>8116</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">44</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1862/E" target="_blank" class="text-primary">Kolya and Movie Theatre</a></td>
+                        <td>constructive algorithms, data structures, greedy</td>
+                        <td>8112</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">45</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1619/E" target="_blank" class="text-primary">MEX and Increments</a></td>
+                        <td>constructive algorithms, data structures, dp, greedy, implementation, math, sortings</td>
+                        <td>8099</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">46</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1861/C" target="_blank" class="text-primary">Queries for the Array</a></td>
+                        <td>data structures, dfs and similar, implementation, strings, trees</td>
+                        <td>8087</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">47</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1062/B" target="_blank" class="text-primary">Math</a></td>
+                        <td>greedy, math, number theory</td>
+                        <td>8043</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">48</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1557/C" target="_blank" class="text-primary">Moamen and XOR</a></td>
+                        <td>bitmasks, combinatorics, dp, math, matrices</td>
+                        <td>7975</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">49</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1861/C" target="_blank" class="text-primary">Queries for the Array</a></td>
+                        <td>data structures, dfs and similar, implementation, strings, trees</td>
+                        <td>7898</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">50</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1422/C" target="_blank" class="text-primary">Bargain</a></td>
+                        <td>combinatorics, dp, math</td>
+                        <td>7854</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">51</th>
+                        <td><a href="https://codeforces.com/problemset/problem/978/F" target="_blank" class="text-primary">Mentors</a></td>
+                        <td>binary search, data structures, implementation</td>
+                        <td>7621</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">52</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1015/D" target="_blank" class="text-primary">Walking Between Houses</a></td>
+                        <td>constructive algorithms, greedy</td>
+                        <td>7545</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">53</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1452/D" target="_blank" class="text-primary">Radio Towers</a></td>
+                        <td>combinatorics, dp, math</td>
+                        <td>7543</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">54</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1025/B" target="_blank" class="text-primary">Weakened Common Divisor</a></td>
+                        <td>brute force, greedy, number theory</td>
+                        <td>7497</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">55</th>
+                        <td><a href="https://codeforces.com/problemset/problem/835/C" target="_blank" class="text-primary">Star sky</a></td>
+                        <td>dp, implementation</td>
+                        <td>7436</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">56</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1702/F" target="_blank" class="text-primary">Equate Multisets</a></td>
+                        <td>constructive algorithms, data structures, greedy, math, number theory</td>
+                        <td>7374</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">57</th>
+                        <td><a href="https://codeforces.com/problemset/problem/711/C" target="_blank" class="text-primary">Coloring Trees</a></td>
+                        <td>dp</td>
+                        <td>7370</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">58</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1789/C" target="_blank" class="text-primary">Serval and Toxel's Arrays</a></td>
+                        <td>combinatorics, dp, implementation, math</td>
+                        <td>7332</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">59</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1789/C" target="_blank" class="text-primary">Serval and Toxel's Arrays</a></td>
+                        <td>combinatorics, dp, implementation, math</td>
+                        <td>7332</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">60</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1740/D" target="_blank" class="text-primary">Knowledge Cards</a></td>
+                        <td>constructive algorithms, data structures</td>
+                        <td>7145</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">61</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1740/D" target="_blank" class="text-primary">Knowledge Cards</a></td>
+                        <td>constructive algorithms, data structures</td>
+                        <td>7145</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">62</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1209/C" target="_blank" class="text-primary">Paint the Digits</a></td>
+                        <td>constructive algorithms, greedy, implementation</td>
+                        <td>7068</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">63</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1185/C2" target="_blank" class="text-primary">Exam in BerSU (hard version)</a></td>
+                        <td>brute force, data structures, greedy, math</td>
+                        <td>6993</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">64</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1778/C" target="_blank" class="text-primary">Flexible String</a></td>
+                        <td>bitmasks, brute force, strings</td>
+                        <td>6948</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">65</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1217/C" target="_blank" class="text-primary">The Number Of Good Substrings</a></td>
+                        <td>binary search, bitmasks, brute force</td>
+                        <td>6921</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">66</th>
+                        <td><a href="https://codeforces.com/problemset/problem/888/D" target="_blank" class="text-primary">Almost Identity Permutations</a></td>
+                        <td>combinatorics, dp, math</td>
+                        <td>6830</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">67</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1774/D" target="_blank" class="text-primary">Same Count One</a></td>
+                        <td>brute force, constructive algorithms, greedy, implementation, two pointers</td>
+                        <td>6777</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">68</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1849/D" target="_blank" class="text-primary">Array Painting</a></td>
+                        <td>constructive algorithms, greedy, two pointers</td>
+                        <td>6763</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">69</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1849/D" target="_blank" class="text-primary">Array Painting</a></td>
+                        <td>constructive algorithms, greedy, two pointer</td>
+                        <td>6763</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">70</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1081/C" target="_blank" class="text-primary">Colorful Bricks</a></td>
+                        <td>combinatorics, dp, math</td>
+                        <td>6733</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">71</th>
+                        <td><a href="https://codeforces.com/problemset/problem/340/D" target="_blank" class="text-primary">Bubble Sort Graph</a></td>
+                        <td>binary search, data structures, dp</td>
+                        <td>6719</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">72</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1043/C" target="_blank" class="text-primary">Smallest Word</a></td>
+                        <td>constructive algorithms, greedy, implementation</td>
+                        <td>6600</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">73</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1797/C" target="_blank" class="text-primary">Li Hua and Chess</a></td>
+                        <td>constructive algorithms, greedy, interactive</td>
+                        <td>6586</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">74</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1167/D" target="_blank" class="text-primary">Bicolored RBS</a></td>
+                        <td>constructive algorithms, greedy</td>
+                        <td>6543</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">75</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1714/G" target="_blank" class="text-primary">Path Prefixes</a></td>
+                        <td>binary search, data structures, dfs and similar, trees</td>
+                        <td>6518</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">76</th>
+                        <td><a href="https://codeforces.com/problemset/problem/527/C" target="_blank" class="text-primary">Glass Carving</a></td>
+                        <td>binary search, data structures, implementation</td>
+                        <td>6471</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">77</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1692/H" target="_blank" class="text-primary">Gambling</a></td>
+                        <td>data structures, dp, greedy, math</td>
+                        <td>6395</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">78</th>
+                        <td><a href="https://codeforces.com/problemset/problem/518/D" target="_blank" class="text-primary">Ilya and Escalator</a></td>
+                        <td>combinatorics, dp, math, probabilities</td>
+                        <td>6378</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">79</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1091/D" target="_blank" class="text-primary">New Year and the Permutation Concatenation</a></td>
+                        <td>combinatorics, dp, math</td>
+                        <td>6372</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">80</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1073/D" target="_blank" class="text-primary">Berland Fair</a></td>
+                        <td>binary search, brute force, data structures, greedy</td>
+                        <td>6163</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">81</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1413/D" target="_blank" class="text-primary">Shurikens</a></td>
+                        <td>data structures, greedy, implementation</td>
+                        <td>6149</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">82</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1731/D" target="_blank" class="text-primary">Valiant's New Map</a></td>
+                        <td>binary search, brute force, data structures, dp, two pointers</td>
+                        <td>6138</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">83</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1227/D1" target="_blank" class="text-primary">Optimal Subsequences (Easy Version)</a></td>
+                        <td>data structures, greedy</td>
+                        <td>6007</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">84</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1562/D1" target="_blank" class="text-primary">Two Hundred Twenty One (easy version)</a></td>
+                        <td>data structures, dp, math</td>
+                        <td>5999</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">85</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1829/H" target="_blank" class="text-primary">Don't Blame Me</a></td>
+                        <td>bitmasks, combinatorics, dp, math</td>
+                        <td>5964</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">86</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1579/E2" target="_blank" class="text-primary">Array Optimization by Deque</a></td>
+                        <td>data structures, greedy</td>
+                        <td>5943</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">87</th>
+                        <td><a href="https://codeforces.com/problemset/problem/979/C" target="_blank" class="text-primary">Kuro and Walking Route</a></td>
+                        <td>dfs and similar, trees</td>
+                        <td>5885</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">88</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1672/D" target="_blank" class="text-primary">Cyclic Rotation</a></td>
+                        <td>constructive algorithms, greedy, implementation, two pointers</td>
+                        <td>5699</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">89</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1864/D" target="_blank" class="text-primary">Matrix Cascade</a></td>
+                        <td>brute force, constructive algorithms, data structures, dp, greedy, math</td>
+                        <td>5669</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">90</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1864/D" target="_blank" class="text-primary">Matrix Cascade</a></td>
+                        <td>brute force, constructive algorithms, data structures, dp, greedy, math</td>
+                        <td>5668</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">91</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1879/D" target="_blank" class="text-primary">Sum of XOR Functions</a></td>
+                        <td>bitmasks, combinatorics, divide and conquer, dp, math</td>
+                        <td>5287</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">92</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1879/D" target="_blank" class="text-primary">Sum of XOR Functions</a></td>
+                        <td>bitmasks, combinatorics, divide and conquer, dp, math</td>
+                        <td>5285</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">93</th>
+                        <td><a href="https://codeforces.com/problemset/problem/1015/E1" target="_blank" class="text-primary">Stars Drawing (Easy Edition)</a></td>
+                        <td>brute force, dp, greedy</td>
+                        <td>5124</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">94</th>
+                        <td><a href="https://codeforces.com/problemset/problem/746/D" target="_blank" class="text-primary">Green and Black Tea</a></td>
+                        <td>constructive algorithms, greedy, math</td>
+                        <td>4860</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">95</th>
+                        <td><a href="https://codeforces.com/problemset/problem/898/E" target="_blank" class="text-primary">Squares and not squares</a></td>
+                        <td>constructive algorithms, greedy</td>
+                        <td>4378</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- End Recent Sales -->
+
+            
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+          
+
+          <!-- Budget Report -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Tag Analysis <span>| Problems</span></h5>
+
+              <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
+
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
+                    legend: {
+                      data: ['Tags', 'Actual Spending']
+                    },
+                    radar: {
+                      // shape: 'circle',
+                                //                       implementation             25
+                                // constructive algorithms    23
+                                // binary search              20
+                                // combinatorics              12
+                                // bitmasks                   10
+                                // number theory              10
+                      indicator: [{
+                          name: 'implementation',
+                          max: 25000/1.56
+                        },
+                        {
+                          name: 'constructive',
+                          max: 23000/1.56
+                        },
+                        {
+                          name: 'binarysrch',
+                          max: 20000/1.56
+                        },
+                        {
+                          name: 'combinatorics',
+                          max: 12000/1.56
+                        },
+                        {
+                          name: 'bitmasks',
+                          max: 10000/1.56
+                        },
+                        {
+                          name: 'no.thry',
+                          max: 10000/1.56
+                        }
+                      ]
+                    },
+                    series: [{
+                      name: 'Budget vs spending',
+                      type: 'radar',
+                      data: [{
+                          value: [5000, 5000, 5000, 5000, 5000, 5000],
+                          name: 'Tags'
+                        },
+                        // {
+                        //   value: [5000, 14000, 28000, 26000, 42000, 21000],
+                        //   name: 'Actual Spending'
+                        // }
+                      ]
+                    }]
+                  });
+                });
+              </script>
+
+            </div>
+          </div><!-- End Budget Report -->
+
+          <!-- Website Traffic -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Tags <span>| Top 5</span></h5>
+
+              <div id="trafficChart" style="min-height: 400px;" class="echart"></div>
+
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  echarts.init(document.querySelector("#trafficChart")).setOption({
+                    tooltip: {
+                      trigger: 'item'
+                    },
+                    legend: {
+                      top: '5%',
+                      left: 'center'
+                    },
+                    series: [{
+                      name: 'Access From',
+                      type: 'pie',
+                      radius: ['40%', '70%'],
+                      avoidLabelOverlap: false,
+                      label: {
+                        show: false,
+                        position: 'center'
+                      },
+                      emphasis: {
+                        label: {
+                          show: true,
+                          fontSize: '18',
+                          fontWeight: 'bold'
+                        }
+                      },
+                      labelLine: {
+                        show: false
+                      },
+                                        //                       dp                         46
+                                        // data structures            40
+                                        // greedy                     38
+                                        // math                       34
+                                        // brute force                33
+                      data: [{
+                          value: 46,
+                          name: 'dp'
+                        },
+                        {
+                          value: 40,
+                          name: 'data structures'
+                        },
+                        {
+                          value: 38,
+                          name: 'greedy'
+                        },
+                        {
+                          value: 34,
+                          name: 'math'
+                        },
+                        {
+                          value: 33,
+                          name: 'brute force'
+                        }
+                      ]
+                    }]
+                  });
+                });
+              </script>
+
+            </div>
+          </div><!-- End Website Traffic -->
+
+          
+
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>WolfOutLadder</span></strong>. All Rights Reserved
+    </div>
+    
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
